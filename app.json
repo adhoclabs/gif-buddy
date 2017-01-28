@@ -1,0 +1,8 @@
+{
+  "name": "Gif Buddy",
+  "description": "Auto reply to texts with GIFs",
+  "repository": "https://github.com/adhoclabs/gif-buddy",
+  "logo": "http://s3.amazonaws.com/burner-web-static/gif-buddy.png",
+  "keywords": ["node", "express", "foundation", "burner"],
+  "image": "heroku/nodejs"
+}

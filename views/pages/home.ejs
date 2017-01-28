@@ -1,0 +1,64 @@
+<% include ../partials/header.ejs %>
+
+
+<div class="row">
+
+  <div id="main" class="small-10 small-centered medium-8 medium-centered large-5 large-centered columns">
+
+    <div class="row">
+      <div class="small-12 columns">
+        <h4>GIF Buddy</h4>
+      </div>
+      <div class="small-12 columns">
+        <p>Turn GIF Buddy on or off per authorized line.</p>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top:2em;">
+      <div class="small-12 columns">
+        <h5>Authorized Burners</h5>
+      </div>
+      <div class="small-12 columns">
+        <p>These Burners will auto-reply to short texts with GIF images. <i>To remove this behavior delete Gif Buddy from the Authorized apps section of Burner.</i></p>
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom:2em;">
+
+      <div class="small-12 columns">
+
+        <% gifBurners.forEach(function(burner){ %>
+        
+        <div class="row configure-row-one-line">
+          <div class="small-12 columns">
+            <div class="switch-label-content"><%- burner.name %></div>
+          </div>
+        </div>
+
+        <% }); %>
+      </div>
+    </div>
+
+    <div id="burners" class="small-12 columns">
+
+      <div class="row">
+        <div class="small-12 columns">
+          <h6>All your Burners</h6>
+        </div>
+      </div>
+
+      <% allBurners.forEach(function(burner){ %>
+      
+      <ul class="menu vertical">
+          <li><%- burner.name %></li>
+      </ul>
+
+      <% }); %>
+
+    </div>
+
+
+  </div>
+</div>
+
+<% include ../partials/footer.ejs %>

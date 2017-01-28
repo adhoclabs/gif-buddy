@@ -1,0 +1,164 @@
+@import 'settings';
+@import 'foundation';
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
+body {
+	background: -webkit-linear-gradient(left, #8968cd, #b0145b); /* For Safari 5.1 */
+	background: linear-gradient(to right, #8968cd, #b0145b); /* Standard syntax */
+	font-family: 'Lato' !important;
+	padding-bottom: 4em;
+}
+
+h5 {
+	font-family: 'Lato' !important;
+}
+
+textarea {
+	resize:none;
+	min-height: 75px;
+	padding: 10px 25px 10px 25px;
+}
+
+.btn {
+	color: #fc9934;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Lato' !important;
+}
+
+.btn:active {
+	color: #fc9934;
+	font-weight: bold;
+	font-family: 'Lato' !important;
+	cursor: pointer;
+}
+
+#authorize {
+	margin-top: 5em;
+	margin-bottom: 10em;
+	padding: 1em;
+	color: #fff;
+}
+
+#main {
+	margin-top: 2em;
+	background-color: #FFF;
+	border-radius: 25px;
+	padding: 1em 1em 0 1em;
+
+}
+
+#name {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+.panel-header
+{
+	margin-bottom: 2em;
+	padding: 10px;
+}
+
+.phone-label {
+	font-weight: bold;
+	color: #fc9934;
+}
+
+.switch-label-container {
+	display: table; 
+	height: 40px; 
+	overflow: hidden; 
+}
+
+
+
+.switch-label-description {
+	margin-top:0.2em;
+	font-style: italic;
+}
+
+.configure-row-one-line {
+	height: 60px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	background-color: #FFF;
+	border: 1px solid #ddd;
+	color: #b0145b;
+}
+
+.top-radius-only {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	background-color: #f7f7f7;
+}
+
+.color-button {
+	border-radius:25px; 
+	background-color: #fc9934; 
+	height: 2.5rem; 
+	max-width: 5.0rem;
+}
+
+.color-button label {
+	cursor: pointer; 
+	color: #fff;
+	padding: 0.4rem 1rem 0.4rem 1rem;
+}
+
+#color-picker {
+	margin: 10px;
+	display: none;
+}
+
+.color-cell {
+	min-height: 30px;
+	cursor: pointer;
+}
+
+.color-cell-top-left {
+	border-top-left-radius: 25px;
+}
+
+.color-cell-top-right {
+	border-top-right-radius: 25px;
+}
+
+.color-cell-bottom-left {
+	border-bottom-left-radius: 25px;
+}
+
+.color-cell-bottom-right {
+	border-bottom-right-radius: 25px;
+}
+
+.logo-container {
+	padding: 1em;
+}
+
+.logo {
+	max-height: 75px;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.add-margin {
+	margin-bottom: 2em;
+}
+
+#burners {
+	color: #666;
+	margin-top: 3em;
+	padding-top: 1em;
+	margin-bottom: 2em;
+	border-top: 1px solid #e2e2e2;
+}
