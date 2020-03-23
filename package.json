@@ -28,7 +28,7 @@
     "pg": "^6.1.2",
     "request": "^2.79.0",
     "requests": "^0.1.7",
-    "sequelize": "^3.30.1",
+    "sequelize": ">=4.44.3",
     "url": "^0.11.0"
   },
   "repository": {
